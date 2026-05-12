@@ -187,8 +187,7 @@
     try {
       await fetch('https://dinastia-n8n-webhook.saxddq.easypanel.host/webhook/6c7ee7f1-86f9-41ca-8d54-faa963404a77', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        mode: 'no-cors',
+        headers: { 'Content-Type': 'text/plain' },
         body: JSON.stringify(data)
       });
       showToast();
